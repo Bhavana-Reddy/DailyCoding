@@ -19,5 +19,7 @@ public class SwapFirstAndLastDigitsOfNumber {
 		System.out.println("After swapping first - "+first +" last - " +last);
 		
 		System.out.println("The Actual number before swapping-"+n);
+		
+		
 	}
 }
