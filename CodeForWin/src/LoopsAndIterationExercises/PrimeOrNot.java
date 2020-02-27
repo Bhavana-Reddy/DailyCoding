@@ -8,7 +8,7 @@ public class PrimeOrNot {
 		System.out.println("Enter n -");
 		int n = s.nextInt();
 		
-		for(int i=2;i<n;i++) {
+		for(int i=2;i<n/2;i++) {
 			if(n%i==0) {
 				System.out.println("Number is not prime");
 				break;
