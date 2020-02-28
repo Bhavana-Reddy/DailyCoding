@@ -14,11 +14,15 @@ public class ArmstrongsFrom1ToN {
 		  int newN = i;
 		  int sum =0;
 		  int digit = 0;
+		 // System.out.println("newN - "+newN);
 		     while(newN >0) {
 		    	 digit = newN%10;
-		    	 sum = sum+(newN*newN*newN);
+		    	 sum = sum+(digit*digit*digit);
 		    	 newN = newN/10;
 		     }
+		  //   System.out.println("newN - "+newN);
+//		     System.out.println("Sum is - "+sum);
+//		     System.out.println("The i (present no) - "+i);
 		  if(sum==i) {
 			  System.out.println(i);
 		  }
@@ -27,5 +31,9 @@ public class ArmstrongsFrom1ToN {
 	  }
 	  
 	}
-
 }
+
+
+
+
+
