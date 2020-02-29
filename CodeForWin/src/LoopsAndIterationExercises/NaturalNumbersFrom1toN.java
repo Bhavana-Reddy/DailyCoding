@@ -3,6 +3,9 @@ package LoopsAndIterationExercises;
 import java.util.Scanner;
 
 public class NaturalNumbersFrom1toN {
+	void random(){
+	int p=28;
+	}
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter n value - ");
@@ -19,6 +22,33 @@ public class NaturalNumbersFrom1toN {
 			i++;
 		}
 		
+		myMethod();
+		myClass m = new myClass();
+		m.newMethod();
+	}
+
+	private static void myMethod() {
+	   int a = 10;
+	// p=4;
+		
 	}
 
 }
+
+
+class myClass{
+	int a =10;
+	void newMethod() {
+		System.out.println("jhdfgcfgjkhj");
+	}
+}
+
+
+
+
+
+
+
+
+
+
